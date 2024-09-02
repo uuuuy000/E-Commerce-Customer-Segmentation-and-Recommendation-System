@@ -57,3 +57,6 @@ def get_recommendations(user_id, num_recommendations=5):
 user_id = 1
 print(f"Recommendations for User {user_id}:")
 print(get_recommendations(user_id))
+Replace 'customer_data.csv' and 'user_item_interactions.csv' with your actual file paths.
+	•	The segmentation code assumes you have features like age, annual_income, and spending_score. Adjust the features based on your data.
+	•	The recommendation system assumes you have a user-item interaction matrix with columns user_id, item_id, and interaction (e.g., ratings or purchase counts).
